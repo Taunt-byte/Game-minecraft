@@ -26,7 +26,7 @@ Se você deseja ver ou instalar a versão mais recente você pode achar no GitHu
 
 ou
 
-<code>pip install git+https://github.com/pokepetter/ursina.git</code>
+<code>pip install git https://github.com/pokepetter/ursina.git</code>
 
 Lembre-se de que as coisas <strong>podem</strong> quebrar.
 
