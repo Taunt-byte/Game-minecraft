@@ -7,6 +7,16 @@ class Test_cube(Entity):
             color = color.white,
             texture = 'white_cube'
         )
+class Test_button(Button):
+    def __init__(self):
+        super().__init__(
+            parent = scene,
+            model = 'cube',
+            texture = 'brick',
+            color = color.blue,
+            highlight_color = color.red,
+            pressed_color = color.blue,
+        )
 def update():
     if held_keys['a']:
         test_square.x -= 4 * time.dt
