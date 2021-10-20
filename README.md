@@ -35,11 +35,19 @@ Tabela de conteúdos
 
 ## ❓ Instalação
 
-Para 
+Para instalar basta 
 ## ❓ Como usar
 
-Pa
+Para utilizar basta executar o arquivo "Minecraft.py" em seu editor de texto que ele ira iniciar
+### controles
 
+W = Anda para frente
+A = Anda para a 
+S = Anda para a
+D = Anda para tras
+Botão direito do Mause = 
+Botão Esquerdo do Mause = 
+Para trocar o bloco do personagem basta usar os numeros de 1 a 6
 ## 🔨 Pre Requisitos
 
 Para aproveitar desse projeto você deve seguir os sequintes passos:
