@@ -15,6 +15,7 @@ Tabela de conteúdos
    * [Demonstração](#Demonstração)
    * [Instalação](#Instalação)
    * [Como usar](#como-usar)
+   * [Controles](#Controles)
       * [Pre Requisitos](#pre-requisitos)
    * [Tecnologias](#tecnologias)
    * [Referencia](#Referencia)
@@ -53,15 +54,16 @@ Para instalar basta colocar em seu terminal o sequinte codigo:
 
 Para utilizar basta executar o arquivo "Minecraft.py" em seu editor de texto que ele ira iniciar
 
-### controles
+## Controles
 
-W = Anda para frente
-A = Anda para a esquerda
-S = Anda para a direita
-D = Anda para tras
-Botão direito do Mause = Coloca bloco
-Botão Esquerdo do Mause = Tira bloco
-Para trocar o bloco do personagem basta usar os numeros de 1 a 4
++ W = Anda para frente
++ A = Anda para a esquerda
++ S = Anda para a direita
++ D = Anda para tras
++ Botão direito do Mause = Coloca bloco
++ Botão Esquerdo do Mause = Tira bloco
++ Para trocar o bloco do personagem basta usar os numeros de 1 a 4
+
 ## 🔨 Pre Requisitos
 
 Para aproveitar desse projeto você deve seguir os sequintes passos:
