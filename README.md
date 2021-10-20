@@ -1,24 +1,47 @@
-# Minecraft em python
+<p align="center">
+  <a href="https://unform.dev">
+    <img src="img/Logo.png" height="150" width="175" alt="Unform" />
+  </a>
+</p>
+<h1 align="center">Nome</h1> 
 
-Status: Em desenvolvimento
+<p align="center">sobre</p>
 
-## Objetivo
+Tabela de conteúdos
+=================
+<!--ts-->
+   * [Sobre](#Sobre)
+   * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Instalação](#Instalação)
+   * [Como usar](#como-usar)
+      * [Pre Requisitos](#pre-requisitos)
+   * [Tecnologias](#tecnologias)
+<!--te-->
 
-+ Fazer uma copia do minecraft em python
-+ Aprender um pouco mais sobre a linguagem 
+<h4 align="center"> 
+	🚧  Pronto  🚧
+</h4>
 
-## Gifs e Fotos do projeto
+## Sobre
 
-## Como começar
+É uma aplicação que visa utilizar de Linguagem de programação
 
-1) Instale o Python 3.6 ou mais recente.
+## Tabela de conteudo
 
-        https://www.python.org/downloads/
+- [x] Blocos de diferentes texturas
+- [x] Movimentação de personagem 
+- [x] Movimentação de camera 
 
-2) Open cmd/terminal and type:
-    
+## Instalação
+
+
+1) Instale o Python 3.6 ou mais recente
+
+    https://www.python.org/downloads/
+
+2) Open cmd/terminal and type
+
     <code>pip install ursina</code> 
-<br>
 
 Se você deseja ver ou instalar a versão mais recente você pode achar no GitHub, link abaixo:
 
@@ -42,11 +65,6 @@ ou instale-os todos com:
 
 <code>pip install ursina [extras]</code>
 
-
-
-On some systems you might have to use pip3 instead of pip in order to use Python 3 and not the old Python 2.
-If the pip command is not found, you can use:
-
 <code>python -m pip install ursina</code>
 
 ### Dependencias
@@ -62,9 +80,28 @@ If the pip command is not found, you can use:
     • psd-tools3, for converting .psd files (optional)
     • blender, for converting .blend files (optional)
 
-    Optional dependencies must be installed manually.
 
-## Referencia para a criação do projeto
+As dependencias opcionais devem ser instaladas de forma manual
+
+
+
+## Como usar
+
+Para Usar 
+
+## Pre Requisitos
+## Tecnologias
+
+<table>
+    <tr>
+    <td>Python</td>
+    </tr>
+    <tr>
+    <td>3.9.7</td>
+    </tr>
+</table>
+
+## Referencia
 
 Feito com base no video abaixo
 + https://www.youtube.com/watch?v=DHSRaVeQxIk
