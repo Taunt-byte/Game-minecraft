@@ -12,6 +12,7 @@ Tabela de conteúdos
 <!--ts-->
    * [Sobre](#Sobre)
    * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Demonstração](#Demonstração)
    * [Instalação](#Instalação)
    * [Como usar](#como-usar)
       * [Pre Requisitos](#pre-requisitos)
@@ -33,21 +34,34 @@ Tabela de conteúdos
 - [x] Jogo do Minecraft (python)
 - [x] Texturas do jogo
 
+## Demonstração
+
+Foto retirada do projeto em execução.
+
+<img src="img/foto1.png" height="150" width="175" alt="Unform" />
+
+<img src="img/foto2.png" height="150" width="175" alt="Unform" />
+
+
 ## ❓ Instalação
 
-Para instalar basta 
+Para instalar basta colocar em seu terminal o sequinte codigo:
+
+<code>git clone https://github.com/Taunt-byte/Game-minecraft.git</code>
+
 ## ❓ Como usar
 
 Para utilizar basta executar o arquivo "Minecraft.py" em seu editor de texto que ele ira iniciar
+
 ### controles
 
 W = Anda para frente
-A = Anda para a 
-S = Anda para a
+A = Anda para a esquerda
+S = Anda para a direita
 D = Anda para tras
-Botão direito do Mause = 
-Botão Esquerdo do Mause = 
-Para trocar o bloco do personagem basta usar os numeros de 1 a 6
+Botão direito do Mause = Coloca bloco
+Botão Esquerdo do Mause = Tira bloco
+Para trocar o bloco do personagem basta usar os numeros de 1 a 4
 ## 🔨 Pre Requisitos
 
 Para aproveitar desse projeto você deve seguir os sequintes passos:
