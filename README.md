@@ -3,9 +3,9 @@
     <img src="img/Logo.png" height="150" width="175" alt="Unform" />
   </a>
 </p>
-<h1 align="center">Nome</h1> 
+<h1 align="center">Minecraft em Python</h1> 
 
-<p align="center">sobre</p>
+<p align="center">Apenas um clone do jogo Minecraft</p>
 
 Tabela de conteúdos
 =================
@@ -16,54 +16,52 @@ Tabela de conteúdos
    * [Como usar](#como-usar)
       * [Pre Requisitos](#pre-requisitos)
    * [Tecnologias](#tecnologias)
+   * [Referencia](#Referencia)
 <!--te-->
 
 <h4 align="center"> 
-	🚧  Pronto  🚧
+	✔️  Pronto  ✔️
 </h4>
 
-## Sobre
+## ❓ Sobre
 
-É uma aplicação que visa utilizar de Linguagem de programação
+É uma aplicação que visa utilizar da linguagem de programação Python para criar uma copia do jogo Minecraft 
 
-## Tabela de conteudo
+## ✔️ Tabela de conteudo
 
-- [x] Blocos de diferentes texturas
-- [x] Movimentação de personagem 
-- [x] Movimentação de camera 
+- [x] Teste da biblioteca
+- [x] Jogo do Minecraft (python)
+- [x] Texturas do jogo
 
-## Instalação
+## ❓ Instalação
 
+Para 
+## ❓ Como usar
 
-1) Instale o Python 3.6 ou mais recente
+Pa
 
-    https://www.python.org/downloads/
+## 🔨 Pre Requisitos
 
-2) Open cmd/terminal and type
+Para aproveitar desse projeto você deve seguir os sequintes passos:
 
-    <code>pip install ursina</code> 
+1) Primeiramente você deve possuir o git devidamente instalado em sua maquina
 
-Se você deseja ver ou instalar a versão mais recente você pode achar no GitHub, link abaixo:
+2) Depois do git você deve ter o python devidamente instalado em sua maquina junto com a biblioteca pygame
 
-<code>pip install https://github.com/pokepetter/ursina/archive/master.zip</code>
+4) Você deve possuir a biblioteca Ursina do python para instalar basta digitar em seu terminal:
+
+<code>pip install ursina</code>
 
 ou
-
-<code>pip install git https://github.com/pokepetter/ursina.git</code>
-
-Lembre-se de que as coisas <strong>podem</strong> quebrar.
-
-Se você quiser editar facilmente o código-fonte, é recomendado clonar o git
-repo e instale como desenvolva assim. Certifique-se de ter git installed. ( https://git-scm.com/ )
 
 <code>git clone https://github.com/pokepetter/ursina.git</code>
 
 <code>python setup.py develop</code>
 
-Além disso, instale qualquer uma das dependências opcionais que você deseja da lista abaixo,
+Além disso,você pode querer (ou não) instalar dependencias opcionais e para isso basta que você escolha umas das dependencias abaixo,
 ou instale-os todos com:
 
-<code>pip install ursina [extras]</code>
+<code>pip install ursina [dependencia]</code>
 
 <code>python -m pip install ursina</code>
 
@@ -73,7 +71,6 @@ ou instale-os todos com:
     • panda3d
     • screeninfo, for detecting screen resolution
     • pillow, for texture manipulation
-
     • psutil, for measuring memory usage (optional)
     • hurry.filesize, for converting bytes to megabytes (optional)
     • imageio, for recording and converting to gifs (optional)
@@ -81,16 +78,12 @@ ou instale-os todos com:
     • blender, for converting .blend files (optional)
 
 
-As dependencias opcionais devem ser instaladas de forma manual
+⚠️ As dependencias opcionais devem ser instaladas de forma manual
 
 
+3) E por ultimo deve possuir um bom editor de texto para a edição e execução do codigo (recomendo que use o VScode)
 
-## Como usar
-
-Para Usar 
-
-## Pre Requisitos
-## Tecnologias
+## 🚀 Tecnologias
 
 <table>
     <tr>
@@ -101,7 +94,7 @@ Para Usar
     </tr>
 </table>
 
-## Referencia
+## 🚀 Referencia
 
 Feito com base no video abaixo
 + https://www.youtube.com/watch?v=DHSRaVeQxIk
