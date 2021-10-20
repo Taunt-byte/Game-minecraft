@@ -54,7 +54,7 @@ Para instalar basta colocar em seu terminal o sequinte codigo:
 
 Para utilizar basta executar o arquivo "Minecraft.py" em seu editor de texto que ele ira iniciar
 
-## Controles
+## 🎮 Controles
 
 + W = Anda para frente
 + A = Anda para a esquerda
