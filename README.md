@@ -25,17 +25,17 @@ Tabela de conteúdos
 	✔️  Pronto  ✔️
 </h4>
 
-## ❓ Sobre
+## Sobre ❓
 
 É uma aplicação que visa utilizar da linguagem de programação Python para criar uma copia do jogo Minecraft 
 
-## ✔️ Tabela de conteudo
+## Tabela de conteudo ✔️
 
 - [x] Teste da biblioteca
 - [x] Jogo do Minecraft (python)
 - [x] Texturas do jogo
 
-## Demonstração
+## Demonstração ❓
 
 Foto retirada do projeto em execução.
 
@@ -44,17 +44,17 @@ Foto retirada do projeto em execução.
 <img src="img/foto2.png" height="150" width="175" alt="Unform" />
 
 
-## ❓ Instalação
+## Instalação ❓
 
 Para instalar basta colocar em seu terminal o sequinte codigo:
 
 <code>git clone https://github.com/Taunt-byte/Game-minecraft.git</code>
 
-## ❓ Como usar
+## Como usar ❓
 
 Para utilizar basta executar o arquivo "Minecraft.py" em seu editor de texto que ele ira iniciar
 
-## 🎮 Controles
+## Controles 🎮
 
 + W = Anda para frente
 + A = Anda para a esquerda
@@ -64,7 +64,7 @@ Para utilizar basta executar o arquivo "Minecraft.py" em seu editor de texto que
 + Botão Esquerdo do Mause = Tira bloco
 + Para trocar o bloco do personagem basta usar os numeros de 1 a 4
 
-## 🔨 Pre Requisitos
+## Pre Requisitos 🔨
 
 Para aproveitar desse projeto você deve seguir os sequintes passos:
 
@@ -107,7 +107,7 @@ ou instale-os todos com:
 
 3) E por ultimo deve possuir um bom editor de texto para a edição e execução do codigo (recomendo que use o VScode)
 
-## 🚀 Tecnologias
+## Tecnologias 🚀
 
 <table>
     <tr>
@@ -118,7 +118,7 @@ ou instale-os todos com:
     </tr>
 </table>
 
-## 🚀 Referencia
+## Referencia 🚀
 
 Feito com base no video abaixo
 + https://www.youtube.com/watch?v=DHSRaVeQxIk
