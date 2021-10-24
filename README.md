@@ -102,7 +102,7 @@ ou instale-os todos com:
     • blender, for converting .blend files (optional)
 
 
-⚠️ As dependencias opcionais devem ser instaladas de forma manual
+⚠️ As dependencias opcionais devem ser instaladas de forma manual ⚠️
 
 
 3) E por ultimo deve possuir um bom editor de texto para a edição e execução do codigo (recomendo que use o VScode)
@@ -120,5 +120,6 @@ ou instale-os todos com:
 
 ## Referencia
 
-Feito com base no video abaixo
-+ https://www.youtube.com/watch?v=DHSRaVeQxIk
+Feito com base no video abaixo:
+
+<code> https://www.youtube.com/watch?v=DHSRaVeQxIk </code>
