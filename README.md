@@ -47,8 +47,39 @@ Foto retirada do projeto em execução.
 ## Instalação 
 
 Para instalar basta colocar em seu terminal o sequinte codigo:
+    
+    git clone https://github.com/Taunt-byte/Game-minecraft.git
 
-<code>git clone https://github.com/Taunt-byte/Game-minecraft.git</code>
+Você deve possuir a biblioteca Ursina do python para instalar basta digitar em seu terminal:
+
+    pip install ursina
+
+
+Além disso,você pode querer (ou não) instalar dependencias opcionais e para isso basta que você escolha umas das dependencias abaixo,
+ou instale-os todos com:
+
+    pip install ursina [dependencia]
+
+  ou
+
+    python -m pip install ursina
+
+### Dependencias opicionais
+
+    • python 3.6+
+    • panda3d
+    • screeninfo, for detecting screen resolution
+    • pillow, for texture manipulation
+    • psutil, for measuring memory usage (optional)
+    • hurry.filesize, for converting bytes to megabytes (optional)
+    • imageio, for recording and converting to gifs (optional)
+    • psd-tools3, for converting .psd files (optional)
+    • blender, for converting .blend files (optional)
+
+
+⚠️ As dependencias opcionais devem ser instaladas de forma manual ⚠️
+
+
 
 ## Como usar 
 
@@ -72,40 +103,9 @@ Para aproveitar desse projeto você deve seguir os sequintes passos:
 
 2) Depois do git você deve ter o python devidamente instalado em sua maquina junto com a biblioteca pygame
 
-4) Você deve possuir a biblioteca Ursina do python para instalar basta digitar em seu terminal:
+3) Você deve possuir a biblioteca Ursina do python para instalar basta digitar em seu terminal
 
-<code>pip install ursina</code>
-
-ou
-
-<code>git clone https://github.com/pokepetter/ursina.git</code>
-
-<code>python setup.py develop</code>
-
-Além disso,você pode querer (ou não) instalar dependencias opcionais e para isso basta que você escolha umas das dependencias abaixo,
-ou instale-os todos com:
-
-<code>pip install ursina [dependencia]</code>
-
-<code>python -m pip install ursina</code>
-
-### Dependencias
-
-    • python 3.6+
-    • panda3d
-    • screeninfo, for detecting screen resolution
-    • pillow, for texture manipulation
-    • psutil, for measuring memory usage (optional)
-    • hurry.filesize, for converting bytes to megabytes (optional)
-    • imageio, for recording and converting to gifs (optional)
-    • psd-tools3, for converting .psd files (optional)
-    • blender, for converting .blend files (optional)
-
-
-⚠️ As dependencias opcionais devem ser instaladas de forma manual ⚠️
-
-
-3) E por ultimo deve possuir um bom editor de texto para a edição e execução do codigo (recomendo que use o VScode)
+4) E por ultimo deve possuir um bom editor de texto para a edição e execução do codigo (recomendo que use o VScode)
 
 ## Tecnologias
 
