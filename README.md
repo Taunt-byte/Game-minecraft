@@ -27,7 +27,7 @@ Tabela de conteúdos
 
 ## Sobre
 
-É uma aplicação que visa utilizar da linguagem de programação Python para criar uma copia do jogo Minecraft 
+É uma aplicação que visa utilizar da linguagem de programação Python para criar uma copia do jogo Minecraft.
 
 ## Tabela de conteudo 
 
