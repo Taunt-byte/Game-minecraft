@@ -1,18 +1,24 @@
+# Aprendi da pior forma
+# Sempre comente o codigo
+
+from pyexpat import model
 from ursina import *
 from ursina.prefabs.first_person_controller import FirstPersonController
 
 app = Ursina()
+# Texturas
 grass_texture = load_texture('assets/grass_block.png')
 stone_texture = load_texture('assets/stone_block.png')
 brick_texture = load_texture('assets/brick_block.png')
 dirt_texture  = load_texture('assets/dirt_block.png')
 sky_texture   = load_texture('assets/skybox.png')
 arm_texture   = load_texture('assets/arm_texture.png')
+# Sons
 punch_sound   = Audio('assets/punch_sound',loop = False, autoplay = False)
 block_pick = 1
 
-window.fps_counter.enabled = True
-window.exit_button.visible = True
+window.fps_counter.enabled = False
+window.exit_button.visible = False
 
 def update():
 	global block_pick
@@ -21,7 +27,6 @@ def update():
 		hand.active()
 	else:
 		hand.passive()
-
 	if held_keys['1']: block_pick = 1
 	if held_keys['2']: block_pick = 2
 	if held_keys['3']: block_pick = 3
@@ -50,7 +55,7 @@ class Voxel(Button):
 			if key == 'right mouse down':
 				punch_sound.play()
 				destroy(self)
-
+# Céu
 class Sky(Entity):
 	def __init__(self):
 		super().__init__(
@@ -59,7 +64,7 @@ class Sky(Entity):
 			texture = sky_texture,
 			scale = 150,
 			double_sided = True)
-
+# Mão
 class Hand(Entity):
 	def __init__(self):
 		super().__init__(
@@ -76,6 +81,15 @@ class Hand(Entity):
 	def passive(self):
 		self.position = Vec2(0.4,-0.6)
 
+# Inventario
+
+class Inventory(Entity):
+	def __init__(self):
+		super().__init__(
+			parent = camera.ui,
+			model = 'quad'
+		)
+# Tamanho do mapa
 for z in range(90):
 	for x in range(90):
 		voxel = Voxel(position = (x,0,z))
